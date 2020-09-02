@@ -1,0 +1,120 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: MAURICIO
+    last_name: MELO DE ARAUJO
+    
+    # Define yourself in 4-5 words
+    motto: I like to save the world through technology
+    
+    # focus
+    focus: Technology
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Experienced professional representing the interests of the client and the end users, understanding the needs and expectations 
+      of the interested parties to define the appropriate priorities. Work with an agile team, helping with business questions and 
+      setting priorities. Responsible for managing the cadence of execution of the equipment to guarantee the delivery of Sprints
+      Experienced in identifying and understanding problems, opportunities, and priorities that anticipate the value of the solution
+      to the business.
+      Experience in environments and / or projects that involve the development of products using an agile and hybrid model, mainly 
+      in the transition phase of the work model;
+      Strong negotiation and communication skills,
+      Flexibility to change and propose new ideas,
+      Certified by the PMI Institute (PMP), ITIL, COBIT and SCRUM (CSPO / SFC) 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.linkedin.com/in/mauricio-melo-de-araujo-77b33a45/?locale=en_US
+
+    # Contact Information
+    email: mauricio.br.tam@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/mauricio-melo-de-araujo-77b33a45/?locale=es_ES #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/mauriciodro
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: technology
+
+      - item: reading
+
+      - item: surf
+
+# Your previous education
+education:
+    - degree: MBA in Project Management
+      university: Fundação Getulio Vargas
+      time: 2008 - 2010
+education:
+    - degree: MSc in Computer Science
+      university: Universidade Bandeirante de São Paulo
+      time: 2003 - 2006
+      
+# Your previous job experiences or voluntier
+experiences:
+    - role: Product Owner
+      time: 2014 - Present
+      company: Latam Airlines, Santiago Chile
+      # optional
+      company_logo: https://www.latam.com/es_cl/
+      details: |
+        As the owner of the product for Luggage in LATAM Arlines, I have carried out these activities 
+        creates and maintains the product portfolio. KEEP as this is a continuous job and most likely 
+        a full time activity. Prioritize and sequence the Backlog according to business value or ROI. 
+        Help with crafting Epics, Themes and Features in BAG user stories. Convey the vision and goals 
+        at the beginning of each launch and sprint. The product owner must continually remind the team 
+        of the Sprint and Release goals. This helps keep the team on track and serves as a general 
+        yardstick for the team to measure its activity and progress. Represents the client, interacts 
+        and engages the client. Be prepared to lead the team in a different direction at the end of 
+        each Sprint, if necessary. To participate in Daily Scrums, Sprint Planning Meetings, and 
+        Sprint Reviews and Retrospectives. Inspect the progress of the product at the end of each Sprint 
+        and accept or reject the work done. Work that is not complete or not done should be prioritized 
+        or sequenced. Communicate the state externally.
+    
+skills:
+    toolset:
+      - name: Python 
+        level: 98%
+
+      - name: Javascript
+        level: 98%
+
+      - name: Agile frameworks
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Devops
+        level: 85%
+
+      - name:  Photoshop
+        level: 20%
